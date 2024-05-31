@@ -10,3 +10,4 @@ ktg.addEventListener("click",function(){
 ktg1.addEventListener("click",function(){
     bar.classList.toggle("tv");
 })
+
