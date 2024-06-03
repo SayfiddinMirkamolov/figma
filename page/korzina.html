@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/all_products.min.css">
+    <title>Kорзина</title>
     <link rel="icon" href="../image/homeImage/lcon.png">
+    <link rel="stylesheet" href="../css/korzina.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <title>All Products</title>
 </head>
 
 <body>
@@ -25,59 +25,59 @@
                 </div>
                 <a href="../page/katalog.html">Каталог</a>
             </div>
-            <ul class="tovarlar">
-                <li><a href="../page/tovar.html">Молоко, сыр, яйцо</a></li>
-                <li><a href="#">Напитки</a></li>
-                <li><a href="#">Бакалея</a></li>
-                <li><a href="#">Непродовольственные товары</a></li>
-                <li><a href="#">Хлеб</a></li>
-                <li><a href="#">Кондитерские изделия</a></li>
-                <li><a href="#">Здоровое питание</a></li>
-                <li><a href="#">Детское питание</a></li>
-                <li><a href="#">Фрукты и овощи</a></li>
-                <li><a href="#">Чай, кофе</a></li>
-                <li><a href="#">Зоотовары</a></li>
-                <li><a href="#">Мясо, птица, колбаса</a></li>
-                <li><a href="#">Замороженные продукты</a></li>
-            </ul>
-            <div class="search">
-                <input type="text" class="tex" placeholder="Найти товар">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <ul class="menu">
-                <li class="item bar1">
-                    <a href="#">
-                        <i class="fa-solid fa-bars"></i>
-                        <a href="../page/katalog.html">Каталог</a>
-                    </a>
-                </li>
-                <li class="item">
-                    <a href="#">
-                        <i class="fa-regular fa-heart"></i>
-                        <p>Избранное</p>
-                    </a>
-                </li>
-                <li class="item">
-                    <a href="#">
-                        <i class="fa-solid fa-box"></i>
-                        <p>Заказы</p>
-                    </a>
-                </li>
-                <li class="item">
-                    <a href="../page/korzina.html">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <p>Корзина</p>
-                        <span class="countInKorzinaProduct">0</span>
-                    </a>
-                </li>
-                <li class="item user">
-                    <img src="../image/homeImage/Aleksy.png" alt="">
-                    <a href="#">
-                        <p>Алексей</p>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-                </li>
-            </ul>
+						<ul class="tovarlar">
+							<li><a href="../page/tovar.html">Молоко, сыр, яйцо</a></li>
+							<li><a href="#">Напитки</a></li>
+							<li><a href="#">Бакалея</a></li>
+							<li><a href="#">Непродовольственные товары</a></li>
+							<li><a href="#">Хлеб</a></li>
+							<li><a href="#">Кондитерские изделия</a></li>
+							<li><a href="#">Здоровое питание</a></li>
+							<li><a href="#">Детское питание</a></li>
+							<li><a href="#">Фрукты и овощи</a></li>
+							<li><a href="#">Чай, кофе</a></li>
+							<li><a href="#">Зоотовары</a></li>
+							<li><a href="#">Мясо, птица, колбаса</a></li>
+							<li><a href="#">Замороженные продукты</a></li>
+					</ul>
+					<div class="search">
+							<input type="text" class="tex" placeholder="Найти товар">
+							<i class="fa-solid fa-magnifying-glass"></i>
+					</div>
+					<ul class="menu">
+							<li class="item bar1">
+									<a href="#">
+											<i class="fa-solid fa-bars"></i>
+											<a href="../page/katalog.html">Каталог</a>
+									</a>
+							</li>
+							<li class="item">
+									<a href="#">
+											<i class="fa-regular fa-heart"></i>
+											<p>Избранное</p>
+									</a>
+							</li>
+							<li class="item">
+									<a href="#">
+											<i class="fa-solid fa-box"></i>
+											<p>Заказы</p>
+									</a>
+							</li>
+							<li class="item">
+									<a href="#">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<p>Корзина</p>
+											<span class="countInKorzinaProduct">0</span>
+									</a>
+							</li>
+							<li class="item user">
+									<img src="../image/homeImage/Aleksy.png" alt="">
+									<a href="#">
+											<p>Алексей</p>
+											<i class="fa-solid fa-chevron-down"></i>
+									</a>
+							</li>
+					</ul>
         </div>
     </div>
 
@@ -85,18 +85,14 @@
         <div class="joyi">
             <a href="../index.html" class="home">Главная</a>
             <i class="fa-solid fa-chevron-right"></i>
-            <a href="../page/all_products.html" class="page">Все продукты</a>
+            <a href="../page/katalog.html" class="page">Корзина</a>
         </div>
-        <h2>
-            Все продукты
-        </h2>
+        <h2>Корзина <span class="countProductTitle">0</span></h2>
+        <div class="card">
 
-        <!-- card -->
-        <div class="card"></div>
-
-        <!-- paginition -->
-        <ul class="paginition"> </ul>
+        </div>
     </main>
+
 
     <div class="footer">
         <div class="container">
@@ -144,14 +140,10 @@
         </div>
     </div>
 
-
-    
     <script src="../js/reyting.js"></script>
-    <script src="../js/products.js"></script>
-    <script src="../js/all_products.js"></script>
     <script src="../js/korzina.js"></script>
+    <script src="../js/cart.js"></script>
     <script src="../js/katalog.js"></script>
-
 </body>
 
 </html>
